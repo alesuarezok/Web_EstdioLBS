@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LBC y Asociados - Estudio Jurídico</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/icon_pagina_nahuel.jpg') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/icon_pagina_nahuel.jpg') }}" alt="Logo LBC y Asociados">
+                <h1>LBC y Asociados</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#trabajo">Cómo Trabajamos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Bienvenido a LBC y Asociados</h2>
+            <p>Estudio Jurídico integral, dedicado al derecho Civil y Comercial, especializado en derecho de la Salud, Sociedades Comerciales y Derecho del Consumidor.</p>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un estudio jurídico integral, dedicado al derecho Civil y Comercial, especializado en derecho de la Salud, Sociedades Comerciales y Derecho del Consumidor, radicados en la Ciudad de Rosario de la Provincia de Santa Fe.</p>
+            <p><strong>Fuero:</strong> Civil y comercial.</p>
+            <p>Trabajamos en toda la Provincia de Santa Fe, ya sea ante la justicia de la Provincia de Santa Fe o la Justicia Federal.</p>
+        </div>
+    </section>
+
+    <section id="trabajo" class="about">
+        <div class="container">
+            <h2>¿Cómo Trabajamos?</h2>
+            <p><strong>No cobramos por analizar tu caso.</strong></p>
+            <p>Simple, sin adelantos previos a la consulta y con resultados.</p>
+            <ol>
+                <li><strong>1er paso:</strong> Procesamos tu consulta. Al recibir tu consulta, vamos a solicitarte información particular y la documentación correspondiente.</li>
+                <li><strong>2do Paso:</strong> Luego de eso, si creemos que tu caso es procedente, concretamos una cita presencial o virtual de 30 minutos a 45 minutos, concluida la etapa dónde te escuchamos, analizamos si lo que necesitas se puede hacer, en caso de que sea jurídicamente procedente, te elevamos el presupuesto.</li>
+                <li><strong>3er paso:</strong> Nosotros nos encargamos de todo. Tramitamos, negociamos y llevamos el trámite que se requiera hasta su efectiva culminación.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Áreas de Práctica</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <h3>Derecho de la Salud</h3>
+                    <p>Amparos de Salud. El amparo de salud es un proceso judicial rápido y urgente, garantizado constitucionalmente (Art. 43, Argentina), utilizado para proteger el derecho a la vida y la salud cuando obras sociales, prepagas o el Estado niegan, demoran o restringen coberturas médicas esenciales, tratamientos o medicamentos indicados por médicos.</p>
+                    <p>Una verdad, generalmente tu obra social o pre-paga debe brindarte la cobertura de tu cirugía, operación o tratamiento al 100%, pero te niega o cobra diferenciales que no corresponden. Con un amparo logramos que te dé la cobertura que por ley debe (sin pagos extras o excusas administrativas).</p>
+                </div>
+                <div class="service">
+                    <h3>Sociedades</h3>
+                    <p>Constituciones, reformas, aumentos de capital, Inscripciones, solicitud de copias, informes; Sociedades Anónimas, Sociedades por acciones simplificada (S.A.S.), Sociedades extranjeras, S.R.L, Fideicomisos, Contratos asociativos.</p>
+                    <p>Trámites en particular ante el Ente de control de la Provincia de Santa Fe de Sociedades y empresas.</p>
+                </div>
+                <div class="service">
+                    <h3>Derechos del Consumidor</h3>
+                    <p>Reclamos administrativos, denuncias ante defensa del consumidor, reclamos judiciales, especializados en "ESTAFAS BANCARIAS."</p>
+                    <p>¿Sabías que cuando sos víctima de una estafa bancaria o hackeo digital de tu cuenta bancaria o billetera virtual, tenés derecho de reclamar civilmente el dinero que sacaron? El banco o billetera virtual tienen un deber de seguridad de mantener tu cuenta segura, si se produce un daño, deben responder por el dinero que hayan quitado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipo" class="team">
+        <div class="container">
+            <h2>Nuestro Equipo</h2>
+            <div class="team-grid">
+                <div class="member">
+                    <img src="{{ url_for('static', filename='images/abogado_lucas.png') }}" alt="Dr. Lucas Perez Grassano">
+                    <h3>Dr. Lucas Perez Grassano</h3>
+                    <p>Especializado en derecho de las empresas</p>
+                </div>
+                <div class="member">
+                    <img src="{{ url_for('static', filename='images/abogado_nahuel.png') }}" alt="Dr. Almada Nahuel T">
+                    <h3>Dr. Almada Nahuel T</h3>
+                    <p>Especializado en hacking bancario y amparos de salud</p>
+                </div>
+                <div class="member">
+                    <img src="{{ url_for('static', filename='images/abogado_cain.png') }}" alt="Dr. Gamerro Cain Leandro">
+                    <h3>Dr. Gamerro Cain Leandro</h3>
+                    <p>Especializado en contratos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p><strong>Dirección:</strong> Santa Fe 1214 piso 2 oficina 1, Rosario, Provincia de Santa Fe</p>
+            <p><strong>Correo electrónico:</strong> estudio.santafe1214@gmail.com</p>
+            <p><strong>WhatsApp:</strong> 3406-418011</p>
+            <form method="POST" action="{{ url_for('contact') }}">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 LBC y Asociados. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
