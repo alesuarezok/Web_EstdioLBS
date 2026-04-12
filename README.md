@@ -1,4 +1,4 @@
-# Plantilla de Página Web para LBC y Asociados
+# Página Web para LBC y Asociados
 
 Esta es una página web para el estudio jurídico LBC y Asociados, construida con Flask (Python). Incluye secciones como inicio, nosotros, cómo trabajamos, servicios, equipo y contacto.
 
